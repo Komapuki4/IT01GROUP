@@ -1,0 +1,573 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 16222 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Source/IT01GROUP/maxim evgenievich
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54557
+Successfully changed project path to: C:/Source/IT01GROUP/maxim evgenievich
+C:/Source/IT01GROUP/maxim evgenievich
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27472] Host "[IP] 192.168.1.222 [Port] 0 [Flags] 2 [Guid] 2694573483 [EditorId] 2694573483 [Version] 1048832 [Id] WindowsEditor(7,Komapuk) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27472] Host "[IP] 192.168.1.222 [Port] 0 [Flags] 2 [Guid] 2694573483 [EditorId] 2694573483 [Version] 1048832 [Id] WindowsEditor(7,Komapuk) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 145.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Source/IT01GROUP/maxim evgenievich/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x24c9)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.4612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004627 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 281 ms
+Refreshing native plugins compatible for Editor in 175.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (666ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (382ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006770 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4617 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (293.1 KB). Loaded Objects now: 5150.
+Memory consumption went from 170.7 MB to 170.4 MB.
+Total: 2.310200 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.153800 ms MarkObjects: 1.796900 ms  DeleteObjects: 0.122100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (268.0 KB). Loaded Objects now: 5153.
+Memory consumption went from 179.1 MB to 178.8 MB.
+Total: 2.124200 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.111800 ms MarkObjects: 1.700800 ms  DeleteObjects: 0.103700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Source\IT01GROUP\maxim evgenievich\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (396ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (324ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (267.1 KB). Loaded Objects now: 5156.
+Memory consumption went from 179.1 MB to 178.8 MB.
+Total: 2.162600 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.107100 ms MarkObjects: 1.739600 ms  DeleteObjects: 0.102000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10336.896133 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/45.mat
+  artifactKey: Guid(400a32ebf1c71194aa9b95f31e6737cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/45.mat using Guid(400a32ebf1c71194aa9b95f31e6737cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f268b4f673598ed68134453636f5729') in 0.145768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_09.mat
+  artifactKey: Guid(c5fb9c22889476f41ab5ae22d93067b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_09.mat using Guid(c5fb9c22889476f41ab5ae22d93067b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea03b2df9888b86aa68b1ab7d6e590') in 0.017463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonTown/Materials/Misc/Base_Glass.mat
+  artifactKey: Guid(a42d40093a06b634cb49e6bfda441946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonTown/Materials/Misc/Base_Glass.mat using Guid(a42d40093a06b634cb49e6bfda441946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabfdbcb335a65f37c3d73d9ff046424') in 0.019925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_01.mat
+  artifactKey: Guid(d84145523253a204188d2b3512432d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_01.mat using Guid(d84145523253a204188d2b3512432d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd190046565fb474dd72dffafd1cbb013') in 0.034601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonCity/Materials/FX_Materials/Cloud_Mat.mat
+  artifactKey: Guid(3635b8bf677082d4ba3e66faa1d21d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonCity/Materials/FX_Materials/Cloud_Mat.mat using Guid(3635b8bf677082d4ba3e66faa1d21d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cfcaa978a4a4f17e12afb842581067') in 0.013210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Wires/Materials/Buildings/alphas_2-sided.mat
+  artifactKey: Guid(263e9009e150b9d47b1dd390ffae817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/Other/Wires/Materials/Buildings/alphas_2-sided.mat using Guid(263e9009e150b9d47b1dd390ffae817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bbe3555dc5264d0ff6028026c010d8') in 0.015569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_03.mat
+  artifactKey: Guid(8fca9c0ec42bf2a4b990156c068ab45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_03.mat using Guid(8fca9c0ec42bf2a4b990156c068ab45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b592fca3257f6e9684937440520bdacc') in 0.032084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/base-1.mat
+  artifactKey: Guid(cffef3a32fba7f744b27ad302682c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/ArcherySystem/Animations/Materials/base-1.mat using Guid(cffef3a32fba7f744b27ad302682c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0e5bfd05b8f0952097637921ea2965') in 0.024669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_03.mat
+  artifactKey: Guid(d5e7a10ff98b5a841823ef57e83e4ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_03.mat using Guid(d5e7a10ff98b5a841823ef57e83e4ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b634b9233513d972c04c31f156aab1b') in 0.013081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_shotgun.mat
+  artifactKey: Guid(d8520d4b87af5bd48b84f8e3d6fc8caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_shotgun.mat using Guid(d8520d4b87af5bd48b84f8e3d6fc8caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5411cab839f6ecba42690671860d59d2') in 0.030599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Props/cardboard/Textures/_Materials/box.mat
+  artifactKey: Guid(8ae4f004452074c4a9c75db349ed9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Props/cardboard/Textures/_Materials/box.mat using Guid(8ae4f004452074c4a9c75db349ed9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564e261ea0154e6e41c81ef14a29ae3') in 0.065235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_rif.mat
+  artifactKey: Guid(4ceb2a723353b4c49a0e6824aab16ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_rif.mat using Guid(4ceb2a723353b4c49a0e6824aab16ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7fce27c3992952d27bcd0c42be43f9') in 0.013848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/climb.mat
+  artifactKey: Guid(fe5108bb1f2e2c848bf5ddc4ebbc7012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/HUD/guide-texts/Materials/climb.mat using Guid(fe5108bb1f2e2c848bf5ddc4ebbc7012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4413fd8c74da42f4f22c69332df6c5') in 0.031017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/chrome@custom.mat
+  artifactKey: Guid(936aae22a565c77448c1b1a9f6928b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/chrome@custom.mat using Guid(936aae22a565c77448c1b1a9f6928b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ae3f75ef896f48e0205818cdc11dfd') in 0.024986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/Textures/Brick/Materials/brick_COLOR.mat
+  artifactKey: Guid(82e803d7897a64947bd4876e0abc80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/Scripts/DecalManager/Textures/Brick/Materials/brick_COLOR.mat using Guid(82e803d7897a64947bd4876e0abc80aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9b9bc704640966db8554236e0c7413') in 0.113227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon2.mat
+  artifactKey: Guid(fdcb5d92a21150a46b75fd32ed28c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/prototype_textures/Materials/carbon2.mat using Guid(fdcb5d92a21150a46b75fd32ed28c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b1b3526846e25b069327295ca70297') in 0.024964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Body.mat
+  artifactKey: Guid(2fccb76f588d4d749928713d38489484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Body.mat using Guid(2fccb76f588d4d749928713d38489484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0655b0ca7472c8c0340b15a45454b693') in 0.151061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_02.mat
+  artifactKey: Guid(023a5414adc9b29468e0240ff2a657d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Carpet_02.mat using Guid(023a5414adc9b29468e0240ff2a657d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917081b43934842dabf229607ea3eed5') in 0.031542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Resources/Materials/basicLogo.mat
+  artifactKey: Guid(95e8ddafe35d7fa489f1b9ef6bb570d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Resources/Materials/basicLogo.mat using Guid(95e8ddafe35d7fa489f1b9ef6bb570d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c14bbb49e0725bd1d1f9e777923153b') in 0.095801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Wood_01.mat
+  artifactKey: Guid(227314df9765ad140b09af29dfb2d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Wood_01.mat using Guid(227314df9765ad140b09af29dfb2d951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26958b5d70fbdfe16cbe7ddc16177d2f') in 0.033367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_08.mat
+  artifactKey: Guid(6491c94dec74c7b49bf4c6ba171832c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_08.mat using Guid(6491c94dec74c7b49bf4c6ba171832c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f711ee799f9a6e568efcc40fe0a035') in 0.017721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_06.mat
+  artifactKey: Guid(c62e6f7eb7c20774eba22941a5ca9788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_06.mat using Guid(c62e6f7eb7c20774eba22941a5ca9788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eb13288bf211ac967be88a232b250a') in 0.027910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_cube.mat
+  artifactKey: Guid(e214d4cadc22d544dae9aa451755af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_cube.mat using Guid(e214d4cadc22d544dae9aa451755af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d494aed609e4a8701258e4a7a4ded') in 0.042369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Decals/Board_02.mat
+  artifactKey: Guid(505ae36879c82eb43a29d153b21e78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Decals/Board_02.mat using Guid(505ae36879c82eb43a29d153b21e78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef3d05477f4cc94d704b416f23ccfd0') in 0.035683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/base-2@custom.mat
+  artifactKey: Guid(089472169283b7e4490f59c8fcb44a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/base-2@custom.mat using Guid(089472169283b7e4490f59c8fcb44a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf26c20607415e6581f5e9e6e53057a') in 0.028965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/basicTextures/Materials/blockIcon.mat
+  artifactKey: Guid(bfbb0dc28d099374ea54992d9c8b94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Textures/basicTextures/Materials/blockIcon.mat using Guid(bfbb0dc28d099374ea54992d9c8b94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc471d0709daf8c591d10d058cf69be7') in 0.032929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_Soft_01.mat
+  artifactKey: Guid(900f7f757d49f1a4c930571896243bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_Soft_01.mat using Guid(900f7f757d49f1a4c930571896243bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c5949f2dfa51714e643a09f18225e2') in 0.021345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Concrete_01.mat
+  artifactKey: Guid(abddd719802f6144c9c9588c8ca84d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Concrete_01.mat using Guid(abddd719802f6144c9c9588c8ca84d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1650502c782c788779f70646f914571') in 0.040418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/chrome.mat
+  artifactKey: Guid(8009a20034d14e1468bfb9cd117078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials/chrome.mat using Guid(8009a20034d14e1468bfb9cd117078cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2dc7fbd0a668c0e4616f4f13232ed3') in 0.023745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Decals/Decal_Boo_01.mat
+  artifactKey: Guid(073e68478a10409439f7663afe23103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Decals/Decal_Boo_01.mat using Guid(073e68478a10409439f7663afe23103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd332a5206f47f3a8653a2a866c1737ad') in 0.043013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_01.mat
+  artifactKey: Guid(6d422d6480a30454a96977f5d28fd082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_01.mat using Guid(6d422d6480a30454a96977f5d28fd082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c5b2161e516ee3ebf9d63140af81a2') in 0.014481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_pist.mat
+  artifactKey: Guid(8426eee56b825664594bb6d0d1678a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Particles/Materials/capsule_pist.mat using Guid(8426eee56b825664594bb6d0d1678a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82c1cf39f07bdc561ae9391a73bcad0') in 0.017261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Decals/Decal_Ha_01.mat
+  artifactKey: Guid(9b2348636ca26e946aa3073bdecd76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Decals/Decal_Ha_01.mat using Guid(9b2348636ca26e946aa3073bdecd76bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d110da49a3f2385f9ab4f28d36b328c') in 0.034686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Decals/Board_03.mat
+  artifactKey: Guid(dfe5d0465fbf0be438543d1fa1ef3808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Decals/Board_03.mat using Guid(dfe5d0465fbf0be438543d1fa1ef3808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728da48d867fb2ec2f2beae5ab319ea7') in 0.032294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Circle_Particle_01.mat
+  artifactKey: Guid(76a1bd0adb02229449e905080f0c1aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Circle_Particle_01.mat using Guid(76a1bd0adb02229449e905080f0c1aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989efd051aef69deb87696f8a148871') in 0.017053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Brick_01.mat
+  artifactKey: Guid(457737c5bbfee724f8c4c89322e71898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Brick_01.mat using Guid(457737c5bbfee724f8c4c89322e71898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3189d68d0bb416a7d66a411971472ca') in 0.029371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_04.mat
+  artifactKey: Guid(4267f04e927834c4686802f3cd602576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/FX/Additive_Circle_04.mat using Guid(4267f04e927834c4686802f3cd602576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa4d063bb45cd2932d411b0ae51cc50') in 0.024177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_cube_simple.mat
+  artifactKey: Guid(b9c988e3a01f8a34f8cf350e4f566def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_cube_simple.mat using Guid(b9c988e3a01f8a34f8cf350e4f566def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e9aad1b6095b646ad1af0710722563') in 0.022471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_floor_Tiled.mat
+  artifactKey: Guid(b5318195f3001224f8d89ed125cd996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Others/Materials/blue_floor_Tiled.mat using Guid(b5318195f3001224f8d89ed125cd996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d97beb3604b94caf45611ef73d48fed') in 0.024064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Particles/DamageEffect/materials/bloodSplash.mat
+  artifactKey: Guid(2d324f779821859488f2c38807d7f18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Particles/DamageEffect/materials/bloodSplash.mat using Guid(2d324f779821859488f2c38807d7f18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3630e4f24850b165ef3c58928b5e0649') in 0.032033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/collectable 1.mat
+  artifactKey: Guid(af750708db6d7504dbdd396c16d5a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/ItemManager/3D Models/Materials/collectable 1.mat using Guid(af750708db6d7504dbdd396c16d5a460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91f36c3b7e3ce5588d1d2895bbf8f91') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Brick_02.mat
+  artifactKey: Guid(4e312b399a55dc64e9ae1700888fa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonHorrorCarnival/Materials/Misc/Base_Building_Brick_02.mat using Guid(4e312b399a55dc64e9ae1700888fa1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285da16c6b5a9150c3d596e560035ceb') in 0.030990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/base-1@custom.mat
+  artifactKey: Guid(e8dc3a834ff82674bb185ef3a9385eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Characters/Invector@V-Bot/Materials@custom/base-1@custom.mat using Guid(e8dc3a834ff82674bb185ef3a9385eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd51b326bfd4fb6ecd8162263b16297b') in 0.023509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Particles/DamageEffect/materials/bloodSplash 1.mat
+  artifactKey: Guid(e76ba17d8381af145b73e14a7e8586cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/3D Models/Particles/DamageEffect/materials/bloodSplash 1.mat using Guid(e76ba17d8381af145b73e14a7e8586cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1494bc76a4b06e4c8c4f3b6ec1ce5b3') in 0.024283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/BodySnapSystem/Scripts/Editor/Resources/boneMaterial.mat
+  artifactKey: Guid(27344df4b0a8b3b45a50e864896e41cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Basic Locomotion/Scripts/Generic/BodySnapSystem/Scripts/Editor/Resources/boneMaterial.mat using Guid(27344df4b0a8b3b45a50e864896e41cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52beb7b2790db942b1096462c38513b') in 0.023091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vWeaponsNew/material/AimEmmiter.mat
+  artifactKey: Guid(832daff9940428646bb1c49c04eeedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Shooter/3DModels/Weapons/vWeaponsNew/material/AimEmmiter.mat using Guid(832daff9940428646bb1c49c04eeedac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af690345e62529203f5c2656f38cca2') in 0.082392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_010.mat
+  artifactKey: Guid(45eb9691b900f4c47bfca1608d665978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController/Melee Combat/3DModels/vMeleeWeapons/vAxe/Materials/Axe_Material_010.mat using Guid(45eb9691b900f4c47bfca1608d665978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca3cd349c982f150daa4dc5bd5f72cb') in 0.013363 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

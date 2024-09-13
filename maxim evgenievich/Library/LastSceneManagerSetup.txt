@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/PolygonTown/Scenes/Demo.unity
+- path: Assets/PolygonApocalypse/Scenes/Demo_City_Standard.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
